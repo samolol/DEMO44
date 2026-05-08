@@ -1,0 +1,478 @@
+<html lang="cs"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNÉA BEAUTY STUDIO | Prémiová kosmetická péče</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&amp;family=Playfair+Display:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FAFAF9] text-[#1C1917] antialiased selection:bg-[#D4C4B7]/40 selection:text-[#1C1917] scroll-smooth" style="font-family: 'Inter', sans-serif;">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-[#FAFAF9]/80 backdrop-blur-md border-b border-[#1C1917]/5 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex items-center justify-between h-24">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <a href="#" class="text-xl tracking-tight text-[#1C1917] uppercase" style="font-family: 'Playfair Display', serif;">
+              LUNÉA BEAUTY
+            </a>
+          </div>
+          <!-- Desktop Menu -->
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-center space-x-10">
+              <a href="#sluzby" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors duration-300 uppercase tracking-widest">
+                Služby
+              </a>
+              <a href="#cenik" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors duration-300 uppercase tracking-widest">
+                Ceník
+              </a>
+              <a href="#galerie" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors duration-300 uppercase tracking-widest">
+                Galerie
+              </a>
+              <a href="#kontakt" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors duration-300 uppercase tracking-widest">
+                Kontakt
+              </a>
+              <a href="#rezervace" class="inline-flex items-center justify-center px-6 py-3 text-xs font-normal text-white bg-[#1C1917] uppercase tracking-widest hover:bg-[#C2A88D] transition-all duration-300">
+                Rezervace
+              </a>
+            </div>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button class="text-[#1C1917] hover:text-[#C2A88D] focus:outline-none transition-colors">
+              <iconify-icon icon="solar:hamburger-menu-linear" class="text-2xl" style="stroke-width: 1.5;"></iconify-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#1C1917]">
+      <!-- Background Image & Overlay -->
+      <div class="absolute inset-0 w-full h-full z-0">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Luxusní beauty studio" class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-overlay">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#1C1917]/70 via-[#1C1917]/40 to-[#D4C4B7]/30"></div>
+      </div>
+
+      <div class="relative z-10 text-center px-6 max-w-4xl mx-auto mt-20">
+        <p class="text-xs text-[#E6DFD3] font-light uppercase tracking-[0.3em] mb-6">
+          Praha · kosmetika · lashes · brows · skin care
+        </p>
+        <h1 class="text-5xl md:text-7xl tracking-tight text-white mb-6 font-normal drop-shadow-sm" style="font-family: 'Playfair Display', serif;">
+          LUNÉA BEAUTY STUDIO
+        </h1>
+        <div class="w-16 h-[1px] bg-[#C2A88D] mx-auto mb-8"></div>
+        <p class="text-base md:text-lg text-white/90 font-light tracking-wide mb-12 max-w-2xl mx-auto leading-relaxed">
+          Kosmetická péče, která rozzáří pleť, podtrhne krásu a dopřeje vám
+          chvíli klidu.
+        </p>
+        <a href="#rezervace" class="inline-flex items-center justify-center px-10 py-5 text-xs font-normal text-[#1C1917] bg-[#E6DFD3] uppercase tracking-widest hover:bg-white transition-all duration-500 hover:scale-[1.02]">
+          Rezervovat termín
+        </a>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+        <a href="#o-studiu" class="text-white/60 hover:text-[#C2A88D] transition-colors">
+          <iconify-icon icon="solar:arrow-down-linear" class="text-2xl" style="stroke-width: 1.5;"></iconify-icon>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="lg:py-32 bg-[#FAFAF9] pt-24 pb-24 relative overflow-hidden" id="o-studiu">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          <div class="order-2 lg:order-1 relative">
+            <div class="aspect-[4/5] overflow-hidden group relative z-10">
+              <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&amp;w=1000&amp;auto=format&amp;fit=crop" alt="Krásně udělané nehty na ženské ruce s šedým pozadím" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-in-out">
+            </div>
+            <!-- Decorative block -->
+            <div class="absolute -bottom-8 -right-8 w-56 h-56 bg-[#F2EBE1] -z-0"></div>
+          </div>
+          <div class="order-1 lg:order-2 relative z-10">
+            <h2 class="text-3xl lg:text-5xl text-[#1C1917] tracking-tight mb-8 font-normal" style="font-family: 'Playfair Display', serif">
+              Krása začíná pocitem, že jste v dobrých rukou.
+            </h2>
+            <div class="w-12 h-[1px] bg-[#C2A88D] mb-10"></div>
+            <div class="space-y-6 text-[#1C1917]/70 font-light leading-relaxed text-sm lg:text-base">
+              <p>
+                LUNÉA BEAUTY STUDIO je místo pro ženy, které si chtějí dopřát
+                profesionální péči, klid a viditelný výsledek. Každá návštěva je
+                navržená tak, aby byla příjemná, osobní a přirozeně luxusní.
+              </p>
+              <p>
+                Specializujeme se na kosmetická ošetření pleti, úpravu obočí,
+                lash lifting, laminaci obočí a jemné beauty rituály. Vždy volíme
+                postup podle typu pleti, přání klientky a výsledku, kterého chce
+                dosáhnout.
+              </p>
+              <p>
+                Naším cílem není měnit vaši tvář, ale zvýraznit to, co je na vás
+                krásné. Přirozeně, elegantně a s respektem k vaší individualitě.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="sluzby" class="py-24 lg:py-32 bg-[#F2EBE1]/50">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-20">
+          <h2 class="text-3xl lg:text-5xl tracking-tight text-[#1C1917] mb-6 font-normal" style="font-family: 'Playfair Display', serif;">
+            Služby
+          </h2>
+          <div class="w-12 h-[1px] bg-[#C2A88D] mx-auto mb-6"></div>
+          <p class="text-sm text-[#1C1917]/60 font-light leading-relaxed">
+            Vyberte si péči, která odpovídá tomu, co právě potřebujete — od
+            rozjasnění pleti až po úpravu obočí a řas.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <!-- Service 1 -->
+          <div class="group relative p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="absolute top-6 right-6 bg-[#F2EBE1] text-[#C2A88D] text-xs px-3 py-1 uppercase tracking-widest group-hover:bg-[#292524] group-hover:text-[#E6DFD3] transition-colors duration-500">
+              Oblíbené
+            </div>
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:face-scan-square-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Hloubkové čištění pleti
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Šetrné čištění, peeling, maska a závěrečná péče pro svěží, čistou
+              a odpočatou pleť.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="group p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:dropper-minimalistic-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Hydratační ošetření
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Intenzivní hydratace pro pleť bez jasu, napětí a únavy. Ideální
+              jako pravidelná péče.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="group p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:stars-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Anti-age beauty rituál
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Jemné ošetření zaměřené na rozjasnění, vypnutí a podporu
+              mladistvého vzhledu pleti.
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="group relative p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="absolute top-6 right-6 bg-[#F2EBE1] text-[#C2A88D] text-xs px-3 py-1 uppercase tracking-widest group-hover:bg-[#292524] group-hover:text-[#E6DFD3] transition-colors duration-500">
+              Oblíbené
+            </div>
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:eye-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Lash lifting
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Přirozeně natočené a zvýrazněné řasy bez nutnosti každodenního
+              líčení.
+            </p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="group p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:magic-stick-3-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Laminace obočí
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Úprava tvaru, fixace a zvýraznění obočí pro upravený vzhled na
+              několik týdnů.
+            </p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="group p-10 bg-white border border-[#1C1917]/5 hover:bg-[#1C1917] transition-all duration-500 flex flex-col items-start hover:shadow-xl hover:shadow-[#D4C4B7]/20">
+            <div class="text-[#C2A88D] mb-6 group-hover:text-[#E6DFD3] transition-colors duration-500">
+              <iconify-icon icon="solar:chat-round-dots-linear" class="text-3xl" style="stroke-width: 1.5;"></iconify-icon>
+            </div>
+            <h3 class="text-xl tracking-tight text-[#1C1917] group-hover:text-white mb-4 transition-colors duration-500 font-normal" style="font-family: 'Playfair Display', serif;">
+              Beauty konzultace
+            </h3>
+            <p class="text-sm text-[#1C1917]/60 group-hover:text-white/60 font-light leading-relaxed transition-colors duration-500">
+              Krátká osobní konzultace, kde společně vybereme nejvhodnější péči
+              podle vaší pleti a cíle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galerie" class="py-24 lg:py-32 bg-[#FAFAF9] w-full">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 mb-16 text-center">
+        <h2 class="text-3xl lg:text-5xl tracking-tight text-[#1C1917] mb-6 font-normal" style="font-family: 'Playfair Display', serif;">
+          Atmosféra studia
+        </h2>
+        <div class="w-12 h-[1px] bg-[#C2A88D] mx-auto"></div>
+      </div>
+
+      <div class="w-full px-4 lg:px-8 max-w-[1600px] mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[250px] lg:auto-rows-[350px]">
+          <!-- Photo 1 (Large) -->
+          <div class="col-span-2 row-span-2 overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&amp;w=1200&amp;auto=format&amp;fit=crop" alt="Relax atmosféra studia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+          <!-- Photo 2 -->
+          <div class="overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="Péče o pleť" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+          <!-- Photo 3 -->
+          <div class="overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="Kosmetické produkty" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+          <!-- Photo 4 (Tall) -->
+          <div class="row-span-2 overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="Detail kosmetické péče" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+          <!-- Photo 5 -->
+          <div class="overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="Řasy a obočí" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+          <!-- Photo 6 -->
+          <div class="col-span-2 lg:col-span-1 overflow-hidden group bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&amp;w=800&amp;auto=format&amp;fit=crop" alt="Kosmetické produkty" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="cenik" class="py-24 lg:py-32 bg-white">
+      <div class="max-w-5xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <h2 class="text-3xl lg:text-5xl tracking-tight text-[#1C1917] mb-6 font-normal" style="font-family: 'Playfair Display', serif;">
+            Ceník
+          </h2>
+          <div class="w-12 h-[1px] bg-[#C2A88D] mx-auto"></div>
+        </div>
+
+        <div class="bg-[#FAFAF9] border border-[#1C1917]/5 p-10 lg:p-16 relative">
+          <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#C2A88D]/30 to-transparent"></div>
+          <div class="grid md:grid-cols-2 gap-16 lg:gap-24">
+            <!-- Category 1 -->
+            <div>
+              <h3 class="text-xl tracking-tight text-[#1C1917] mb-10 pb-4 border-b border-[#1C1917]/10 font-normal" style="font-family: 'Playfair Display', serif;">
+                Kosmetická péče
+              </h3>
+              <ul class="space-y-6">
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Hloubkové čištění pleti
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    890 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Hydratační ošetření
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    990 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Rozjasňující ošetření pleti
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    1 090 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Anti-age beauty rituál
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    1 290 Kč
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category 2 -->
+            <div>
+              <h3 class="text-xl tracking-tight text-[#1C1917] mb-10 pb-4 border-b border-[#1C1917]/10 font-normal" style="font-family: 'Playfair Display', serif;">
+                Řasy &amp; obočí
+              </h3>
+              <ul class="space-y-6">
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Lash lifting
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    850 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Laminace obočí
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    750 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Barvení obočí
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    290 Kč
+                  </span>
+                </li>
+                <li class="flex items-end justify-between group">
+                  <span class="text-sm text-[#1C1917]/70 font-light bg-[#FAFAF9] pr-4 relative z-10 group-hover:text-[#1C1917] transition-colors">
+                    Úprava obočí
+                  </span>
+                  <div class="flex-grow border-b border-dotted border-[#1C1917]/20 relative top-[-5px] mx-2"></div>
+                  <span class="text-base text-[#1C1917] bg-[#FAFAF9] pl-4 relative z-10" style="font-family: 'Playfair Display', serif;">
+                    250 Kč
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-16 pt-8 border-t border-[#1C1917]/5 text-center">
+            <p class="text-xs text-[#1C1917]/50 font-light uppercase tracking-widest">
+              Přesnou péči doporučíme podle stavu pleti a požadovaného výsledku.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section id="rezervace" class="py-32 bg-[#F2EBE1]/40 text-center border-t border-[#1C1917]/5">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8">
+        <h2 class="text-3xl lg:text-5xl tracking-tight text-[#1C1917] mb-6 font-normal" style="font-family: 'Playfair Display', serif;">
+          Dopřejte si chvíli jen pro sebe.
+        </h2>
+        <div class="w-12 h-[1px] bg-[#C2A88D] mx-auto mb-8"></div>
+        <p class="text-sm md:text-base text-[#1C1917]/70 font-light mb-12 max-w-2xl mx-auto leading-relaxed">
+          Rezervujte si termín a nechte nás postarat se o vaši pleť, krásu i
+          klid. Ozveme se vám s potvrzením nejbližšího volného termínu.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="mailto:rezervace@luneabeauty.cz" class="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 text-xs font-normal text-white bg-[#1C1917] uppercase tracking-widest hover:bg-[#C2A88D] transition-all duration-300">
+            Rezervovat termín
+          </a>
+          <a href="tel:+420777222333" class="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 text-xs font-normal text-[#1C1917] bg-transparent border border-[#1C1917]/20 uppercase tracking-widest hover:border-[#1C1917] transition-all duration-300">
+            Zavolat do studia
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer & Contact -->
+    <footer id="kontakt" class="bg-white text-[#1C1917] pt-24 pb-12 border-t border-[#1C1917]/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8 mb-16 text-center md:text-left">
+          <!-- Brand -->
+          <div class="flex flex-col items-center md:items-start">
+            <a href="#" class="text-xl tracking-tight text-[#1C1917] uppercase mb-6 block" style="font-family: 'Playfair Display', serif;">
+              LUNÉA BEAUTY
+            </a>
+            <p class="text-xs font-light leading-relaxed max-w-xs text-[#1C1917]/60">
+              Prémiové beauty studio pro přirozenou krásu, zdravě vypadající
+              pleť a chvíle, kdy můžete zpomalit.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="flex flex-col items-center md:items-start">
+            <h4 class="text-[#1C1917] text-[10px] font-normal mb-6 uppercase tracking-widest">
+              Kontakt
+            </h4>
+            <ul class="space-y-4 text-center md:text-left">
+              <li class="flex items-start justify-center md:justify-start gap-3">
+                <iconify-icon icon="solar:map-point-linear" class="text-lg text-[#C2A88D] mt-0.5" style="stroke-width: 1.5;"></iconify-icon>
+                <span class="text-xs font-light text-[#1C1917]/70 leading-relaxed">
+                  Demo ulice 15
+                  <br>
+                  Praha 2
+                </span>
+              </li>
+              <li class="flex items-center justify-center md:justify-start gap-3">
+                <iconify-icon icon="solar:phone-linear" class="text-lg text-[#C2A88D]" style="stroke-width: 1.5;"></iconify-icon>
+                <a href="tel:+420777222333" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors">
+                  +420 777 222 333
+                </a>
+              </li>
+              <li class="flex items-center justify-center md:justify-start gap-3">
+                <iconify-icon icon="solar:letter-linear" class="text-lg text-[#C2A88D]" style="stroke-width: 1.5;"></iconify-icon>
+                <a href="mailto:rezervace@luneabeauty.cz" class="text-xs font-light text-[#1C1917]/70 hover:text-[#C2A88D] transition-colors">
+                  rezervace@luneabeauty.cz
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Socials -->
+          <div class="flex flex-col items-center md:items-start">
+            <h4 class="text-[#1C1917] text-[10px] font-normal mb-6 uppercase tracking-widest">
+              Sociální sítě
+            </h4>
+            <div class="flex gap-4 justify-center md:justify-start">
+              <a href="#" class="w-10 h-10 rounded-full border border-[#1C1917]/10 flex items-center justify-center hover:bg-[#F2EBE1] hover:border-[#F2EBE1] text-[#1C1917]/70 hover:text-[#1C1917] transition-all duration-300">
+                <iconify-icon icon="mdi:instagram" class="text-lg"></iconify-icon>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full border border-[#1C1917]/10 flex items-center justify-center hover:bg-[#F2EBE1] hover:border-[#F2EBE1] text-[#1C1917]/70 hover:text-[#1C1917] transition-all duration-300">
+                <iconify-icon icon="mdi:facebook" class="text-lg"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-8 border-t border-[#1C1917]/5 flex flex-col items-center justify-center gap-4">
+          <p class="text-[10px] font-light text-[#1C1917]/40 uppercase tracking-widest">
+            © 2026 LUNÉA BEAUTY STUDIO. Demo web pro portfolio.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="fixed bottom-8 right-8 w-12 h-12 bg-[#1C1917] text-[#E6DFD3] flex items-center justify-center opacity-70 hover:opacity-100 hover:-translate-y-1 transition-all duration-300 z-50 shadow-xl hover:shadow-[#1C1917]/20">
+      <iconify-icon icon="solar:alt-arrow-up-linear" class="text-xl" style="stroke-width: 1.5;"></iconify-icon>
+    </a>
+  
+</body></html>
